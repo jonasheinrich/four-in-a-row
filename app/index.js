@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import HelloReact from './components/HelloReact'
+import Board from './components/Board'
+import './app.css';
 
-render(<HelloReact />, document.getElementById('app'))
+render(<Board />, document.getElementById('app'))
